@@ -77,3 +77,38 @@ segment predict run file update : predict4.py -> predict6.py
 
 csv file function update
   - 'success' column was added to explain the specific success status.
+
+
+
+### 2024.08.22
+
+- Half image need additional Face detection
+  - condition : Face pixel >250000
+  - if original face under <250000: upscale openCV or Real esrgan
+    
+- Face detection with yoloV5 s size model used
+
+
+
+### 2024. 98.24
+
+- File path and directory updated
+
+- csv file columns update -> scaled 
+
+### 2024.08.26
+
+- Additional condition of predict.py
+
+- original (Half, Full) image pixel >= 8200000 
+
+- updated -> predict7.py
+
+
+
+
+
+
+
+
+
